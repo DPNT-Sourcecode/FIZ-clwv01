@@ -2,7 +2,9 @@
 class Hello
 
   def hello(friend_name)
-    raise 'Not implemented'
+    friend_name = 'Amina'
+    return 'hello #{friend_name}'
   end
 
 end
+

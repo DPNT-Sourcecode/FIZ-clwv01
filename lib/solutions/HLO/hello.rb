@@ -3,11 +3,7 @@ class Hello
 
   def hello(string)
     string = 'World'
-    return 'Hello, #{string}!'
+    return "Hello, #{string}!"
   end
 
 end
-
-
-
-

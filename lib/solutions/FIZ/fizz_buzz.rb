@@ -21,12 +21,25 @@ class FizzBuzz
       return "buzz"
 
 
-    elsif ((number % 3 == 0) &&  number.to_s.include?('3')) || (number % 5 == 0) %% number.to_s.include?('5'))
+    elsif ((number % 3 == 0) &&  number.to_s.include?('3'))
       if number % 2 != 0
-        return "fake deluxe"
+        return "fizz fake deluxe"
       else
 
         return "deluxe"
       end
+      return "fizz"
+
+    elsif (number > 10) && (number.to_s.chars.uniq.length == 1)
+      if number % 2 != 0
+        return "fake deluxe"
+      else
+        return "deluxe"
+      end
     else
+
       return number
+    end
+  end
+end
+

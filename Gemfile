@@ -12,5 +12,5 @@ gem 'simplecov-csv', require: false, group: :test
 
 gem 'minitest', '~> 5.8.3'
 gem 'rake'
-gem 'rspec'
+
 

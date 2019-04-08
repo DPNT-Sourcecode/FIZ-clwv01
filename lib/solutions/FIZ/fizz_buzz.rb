@@ -8,5 +8,7 @@ class FizzBuzz
       number % 5 == 0
       'buzz'
     end
+  end
 
 end
+

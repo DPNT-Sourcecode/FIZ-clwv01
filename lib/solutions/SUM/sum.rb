@@ -1,4 +1,4 @@
-noinspection RubyUnusedLocalVariable
+# noinspection RubyUnusedLocalVariable
 class Sum
 
   def sum(x,y)
@@ -6,3 +6,4 @@ class Sum
   end
 
 end
+

@@ -13,4 +13,3 @@ describe Sum do
   #   expect(num.sum(x,y)).to eq (x+y)
   # end
 end
-

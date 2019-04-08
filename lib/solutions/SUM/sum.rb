@@ -13,5 +13,3 @@ class Sum
   end
 
 end
-
-

@@ -8,9 +8,9 @@ class FizzBuzz
     a << "buzz" if is_divisible(number, 5)
     a << deluxe_type(number) if is_deluxe?(number)
 
-    a.empty? ? number.to_s : prop.join(" ")
+    a.empty? ? number.to_s : a.join(" ")
   end
-  
+
   def is_deluxe?(number)
     check_deluxe_for(number, 3) || check_deluxe_for(number, 5)
   end
@@ -27,6 +27,7 @@ class FizzBuzz
     number % divisor == 0
   end
 end
+
 
 
 

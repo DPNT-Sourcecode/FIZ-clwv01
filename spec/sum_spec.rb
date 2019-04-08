@@ -2,11 +2,8 @@ require 'sum.rb'
 
 
 describe Sum do
-  it 'return a Integer' do
-    num = Num.new
-    expect(num.sum).to eq
+  it 'return a sum of two numbers' do
+    x = Num.new
+    expect(x.sum(x,y)).to eq (x+y)
   end
 end
-
-
-

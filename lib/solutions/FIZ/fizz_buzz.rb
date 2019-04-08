@@ -8,7 +8,7 @@ class FizzBuzz
         if number % 2 != 0
           return "fizz buzz fake deluxe"
         else
-          return "fizz buzz delux"
+          return "fizz buzz deluxe"
         end
       else
         return "fizz buzz"
@@ -40,7 +40,7 @@ class FizzBuzz
       if number % 2 != 0
         return "fake deluxe"
       else
-        return "delux"
+        return "deluxe"
       end
     else
       return number
@@ -48,6 +48,3 @@ class FizzBuzz
   end
 
 end
-
-
-

@@ -2,7 +2,11 @@
 class FizzBuzz
 
   def fizz_buzz(number)
-    raise 'Not implemented'
-  end
+    if number % 3 == 0 && % 5 == 0
+      'fizzbuzz'
+    elsif
+      number % 5 == 0
+      'buzz'
+    end
 
 end

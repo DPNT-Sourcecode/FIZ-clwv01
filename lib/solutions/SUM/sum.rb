@@ -9,7 +9,9 @@
 
 
 class Sum
-  def 
+  def sum
+  end
 
 end
+
 

@@ -11,3 +11,12 @@ class FizzBuzz
     a.empty? ? number.to_s : prop.join(" ")
   end
 
+  def is_deluxe?(number)
+    check_deluxe_for(number, 3) || check_deluxe_for(number, 5)
+  end
+
+  def deluxe_type(number)
+    number.odd? ? "fake deluxe" : "deluxe"
+  end
+
+

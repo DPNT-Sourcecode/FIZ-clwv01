@@ -7,7 +7,7 @@ require_solution 'FIZ'
 
 class ClientTest < Minitest::Test
 
-  def test_sum
+  def test_fiz
     assert_equal 'fizz', FizzBuzz.new.fizzbuzz(3), 'App should return a fizz'
     assert_equal 'buzz', FizzBuzz.new.fizzbuzz(5), 'App should return a buzz'
     assert_equal 'fizzbuzz', FizzBuzz.new.fizzbuzz(15), 'App should return a fizzbuzz'
@@ -16,6 +16,7 @@ class ClientTest < Minitest::Test
   end
 
 end
+
 
 
 

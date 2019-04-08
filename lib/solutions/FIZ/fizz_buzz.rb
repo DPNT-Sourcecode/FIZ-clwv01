@@ -23,10 +23,14 @@ class FizzBuzz
 
     elsif ((number % 3 == 0) || number.to_s.include?('3'))
       if (number > 10) && (number.to_s.chars.uniq.length == 1)
-        return "fizz deluxe"
-      else
+        if number % 2 != 0
+          return "fizz fake deluxe"
+        else
+          return "fizz deluxe"
+        end
         return "fizz"
-      end
+        end
+        
     elsif (number > 10) && (number.to_s.chars.uniq.length == 1)
       if number % 2 != 0
         return "fake deluxe"
@@ -39,3 +43,4 @@ class FizzBuzz
   end
 
 end
+

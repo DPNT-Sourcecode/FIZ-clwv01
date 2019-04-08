@@ -1,8 +1,15 @@
 # noinspection RubyUnusedLocalVariable
-class Sum
+# class Sum
+#
+#   def sum(x,y)
+#     return x + y
+#   end
+#
+# end
 
-  def sum(x,y)
-    return x + y
-  end
+
+class Sum
+  def 
 
 end
+

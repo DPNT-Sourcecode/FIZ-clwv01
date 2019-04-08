@@ -8,7 +8,7 @@ require_solution 'FIZ'
 class ClientTest < Minitest::Test
 
   def test_fiz
-    assert_equal 'fizz buzz', FizzBuzz.new.fizz_buzz(546), 'App should return a fizzbuzz'
+    assert_equal 'fizz buzz delux', FizzBuzz.new.fizz_buzz(555), 'App should return a fizz buzz deluxe'
     assert_equal 'buzz', FizzBuzz.new.fizz_buzz(5), 'App should return a buzz'
     assert_equal 'fizz', FizzBuzz.new.fizz_buzz(3), 'App should return a fizz'
     assert_equal 'deluxe', FizzBuzz.new.fizz_buzz(11), 'App should return a deluxe'
@@ -16,3 +16,4 @@ class ClientTest < Minitest::Test
   end
 
 end
+

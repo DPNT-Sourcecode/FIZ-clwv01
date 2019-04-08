@@ -9,7 +9,12 @@
 
 
 class Sum
+  def initialize(word)
+  end
+
   def sum
+    0
   end
 
 end
+

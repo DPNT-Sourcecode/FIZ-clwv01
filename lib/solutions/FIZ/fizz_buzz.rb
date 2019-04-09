@@ -4,11 +4,11 @@ class FizzBuzz
   def fizz_buzz(number)
     a = []
 
-    a << "fizz" if is_divisible(number, 3)
-    a << "buzz" if is_divisible(number, 5)
-    a << deluxe_type(number) if is_deluxe?(number)
+    a << "fizz" if if_fizz_or_buzz?(number, 3)
+    a <<  "buzz" if if_fizz_or_buzz?(number, 5)
+    a <<  deluxe_type(number) if is_deluxe?(number)
 
-    a.empty? ? number.to_s : a.join(" ")
+    prop.empty? ? number : a.join(" ")
   end
 
   private
@@ -37,4 +37,3 @@ class FizzBuzz
     number.to_s.include?(divisor.to_s)
   end
 end
-

@@ -37,6 +37,3 @@ class FizzBuzz
     number.to_s.include?(divisor.to_s)
   end
 end
-
-
-

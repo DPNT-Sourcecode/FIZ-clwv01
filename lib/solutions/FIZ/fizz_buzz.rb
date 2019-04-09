@@ -27,4 +27,3 @@ class FizzBuzz
     number % divisor == 0
   end
 end
-

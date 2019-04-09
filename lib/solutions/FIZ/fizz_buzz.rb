@@ -11,6 +11,8 @@ class FizzBuzz
     a.empty? ? number.to_s : a.join(" ")
   end
 
+  private
+
   def is_deluxe?(number)
     check_deluxe_for(number, 3) || check_deluxe_for(number, 5)
   end
@@ -35,5 +37,6 @@ class FizzBuzz
     number.to_s.include?(divisor.to_s)
   end
 end
+
 
 

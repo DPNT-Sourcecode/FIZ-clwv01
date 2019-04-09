@@ -26,7 +26,7 @@ class FizzBuzz
   end
 
   def if_fizz_or_buzz?(number, divisor)
-    is_divisible(number, divisor) || has_number(number,divisor)
+    is_divisible(number, divisor) || has_number(number, divisor)
   end
 
   def is_divisible(number, divisor)
@@ -37,3 +37,4 @@ class FizzBuzz
     number.to_s.include?(divisor.to_s)
   end
 end
+

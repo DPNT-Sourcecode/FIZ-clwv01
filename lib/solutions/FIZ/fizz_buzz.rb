@@ -8,7 +8,7 @@ class FizzBuzz
     a <<  "buzz" if if_fizz_or_buzz?(number, 5)
     a <<  deluxe_type(number) if is_deluxe?(number)
 
-    prop.empty? ? number : a.join(" ")
+    a.empty? ? number : a.join(" ")
   end
 
   private

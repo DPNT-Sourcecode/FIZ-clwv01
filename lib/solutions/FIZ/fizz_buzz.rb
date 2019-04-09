@@ -31,6 +31,9 @@ class FizzBuzz
     number % divisor == 0
   end
 
-  
+  def has_number(number, divisor)
+    number.to_s.include?(divisor.to_s)
+  end
 end
+
 

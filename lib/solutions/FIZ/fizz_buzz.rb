@@ -20,10 +20,17 @@ class FizzBuzz
   end
 
   def check_deluxe_for(number, deluxe_value)
-    is_divisible(number, deluxe_value) && number.to_s.include?(deluxe_value.to_s)
+    is_divisible(number, deluxe_value) && has_number(number, deluxe_value)
+  end
+
+  def if_fizz_or_buzz?(number, divisor)
+    is_divisible(number, divisor) || has_number(number,divisor)
   end
 
   def is_divisible(number, divisor)
     number % divisor == 0
   end
+
+  
 end
+
